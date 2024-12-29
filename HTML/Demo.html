@@ -1,0 +1,53 @@
+<style>
+    body{
+        margin:0;
+        padding:0;
+        font-family: "poppins",sans-serif;
+    }
+    .banner
+    {
+        width:100%;
+        height: 100vh;
+        overflow:hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .banner video{
+        position:absolute;
+        top: 0;
+        left:0;
+        object-fit: cover;
+        width:100%;
+        hegith:100%;
+        pointer-events: none;
+    }
+    .banner.content
+    {
+        positon:relative;
+        z-index:1;
+        max-width:1000px;
+        margin:0 auto;
+        text-align:center;
+    }
+    .banner.content h1
+    {
+        margin:0;
+        padding:0;
+        font-size:4.5em;
+        text-transform: uppercase;
+        color:blue
+    }
+</style>
+<body>
+    <div class="banner">
+<video autoplay loop muted >
+    <source src="C:\Users\BEST SOLUTION\Pictures\Camera Roll\WIN_20240917_18_41_16_Pro.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+        <h1>Haii Deepa</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur modi voluptatibus consequuntur animi!</p>
+    </div>
+</div>
+</body>
