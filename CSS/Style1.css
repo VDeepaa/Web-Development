@@ -1,0 +1,13 @@
+    div{
+        background-color: gray;
+        color:white;
+        display: flex;
+        width:1000px;
+        flex-wrap: wrap;
+    }
+    p{
+        padding:20px;
+        margin:20px;
+        background-color: black;
+    
+    }
