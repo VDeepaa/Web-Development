@@ -1,0 +1,12 @@
+/*for(i=10;i>=1;--i)
+{
+    console.log(i)
+}*/
+/*for(i=1;i<=10;i++)
+{
+  console.log(i)
+}*/
+for(a=1;a<=10;a=a+1){
+    if(a%2==0)
+        console.log(a+"x"+"2"+"="+a)
+}
