@@ -1,0 +1,16 @@
+<h1 id="deeps">Name</h1>
+<button id="btn1" onclick="change(event)">Deepa</button>
+<button id="btn2" onclick="change(event)">Nanthu</button>
+<button id="btn3" onclick="change(event)">papa</button>
+<script>
+    var h1 = document.getElementById("deeps")
+    function change(event)
+    {
+        h1.textContent=event.target.textContent
+         h1.style.backgroundColor="orange"
+        h1.style.width="150px"
+        btn1.style.backgroundColor="red"
+        console.log(event)
+    }
+
+</script>
